@@ -1,0 +1,32 @@
+.leftcontent{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+  min-width:350px;
+  max-width:400px;
+  text-align: left;
+
+}
+.borderclass{
+  padding:15px 15px 15px 15px;
+  border : solid #fafafa 1px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #ffff;
+  font-size: 14px;
+
+}
+
+.outerslide{
+  display:flex;
+}
+
+.internal{
+  text-align: left;
+  padding:0;
+  margin:0;
+}
+.internaltext h3{
+  margin-left:20px;
+  font-weight: bolder;
+}

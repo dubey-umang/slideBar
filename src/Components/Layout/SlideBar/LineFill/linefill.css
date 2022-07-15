@@ -1,0 +1,38 @@
+#banner {
+    width: 4px;
+    height: 180px;
+    position: relative;
+    background: #adcaf5;
+  }
+  #banner::before {
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    background: blue;
+    width: 100%;
+    margin:0;
+    padding:0;
+    bottom: 0;
+    animation: wipe 4s linear forwards; 
+    animation-direction: alternate;
+  }
+  @keyframes wipe {
+    0% {
+      height: 0%;
+    }
+    80% {
+      height: 100%;
+    }
+    100% {
+        height: 0%;
+    }
+  }
+
+
+  #nonbanner{
+    width: 4px;
+    height: 70px;
+    position: relative;
+    background: #adcaf5;
+  }
